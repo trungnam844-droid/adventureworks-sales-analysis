@@ -76,11 +76,11 @@ Applied to:
 ---
 ## 📊 Key Results
 
-- Total Revenue (4 years): $ 123216786,11
-- 4-Year CAGR: 51.24 %
+- Total Revenue (4 years): $123216786,11
+- 4-Year CAGR: 51.24%
 - Highest Revenue Territory: Southwest
-- Fastest Growing Territory (CAGR): XXXX
-- Average YoY Growth: X.X%
+- Fastest Growing Territory (CAGR): France
+- Average YoY Growth: 47,30%
 
 ---
 ## 📈 Key Insights
