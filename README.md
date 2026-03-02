@@ -76,9 +76,9 @@ Applied to:
 ---
 ## 📊 Key Results
 
-- Total Revenue (4 years): $XX.XM
-- 4-Year CAGR: X.X%
-- Highest Revenue Territory: North America
+- Total Revenue (4 years): $ 123216786,11
+- 4-Year CAGR: 51.24 %
+- Highest Revenue Territory: Southwest
 - Fastest Growing Territory (CAGR): XXXX
 - Average YoY Growth: X.X%
 
