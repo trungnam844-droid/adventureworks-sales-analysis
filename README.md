@@ -1,8 +1,9 @@
-# 📊 AdventureWorks 2019 - Sales Performance Analysis
+# 📊 Financial Performance & Growth Analysis – AdventureWorks 2019
 
 ## 📌 Project Overview
-This project analyzes sales performance using the AdventureWorks 2019 database.  
-The goal is to evaluate revenue growth, territory performance, and long-term business trends using SQL Server and Power BI.
+This project delivers a financial performance analysis using the AdventureWorks2019 database.  
+
+The objective is to evaluate revenue growth sustainability, profitability trends, and territory performance over a 4-year period using advanced SQL techniques and an interactive Power BI dashboard.
 
 ---
 
@@ -21,11 +22,12 @@ This project answers those questions using structured SQL analysis and interacti
 ---
 
 ## 🎯 Business Objectives
-- Analyze Year-over-Year (YoY) revenue growth
+- Analyze Year-over-Year (YoY) revenue and profit growth
 - Calculate 4-year CAGR (Compound Annual Growth Rate)
-- Evaluate revenue performance by Sales Territory
-- Identify top-performing regions and growth trends
-- Build an interactive Power BI dashboard for business users
+- Evaluate revenue and profitability by Sales Territory
+- Measure gross margin and contribution %
+- Identify high-growth and high-margin regions
+- Build an executive-level Power BI dashboard  
 
 ---
 
@@ -38,11 +40,29 @@ This project answers those questions using structured SQL analysis and interacti
 
 ---
 
+## 🧠 SQL Techniques Demonstrated
+- CTE (Common Table Expressions)
+- Window Functions (LAG)
+- Financial KPI calculation (YoY, CAGR)
+- Multi-table JOIN
+- NULL handling (NULLIF)
+- Revenue aggregation and growth modeling
+- FIRST_VALUE() & LAST_VALUE()
+- Window Frame specification
+- CAGR calculation using POWER()
+- Financial modeling logic in SQL
+
+---
+
 ## 📂 Dataset
 Database: AdventureWorks2019  
 Main tables used:
 - Sales.SalesOrderHeader
 - Sales.SalesTerritory
+- Sales.SalesOrderDetail
+- Production.Product
+- Production.ProductSubcategory
+- Production.ProductCategory  
 
 ---
 
@@ -54,7 +74,7 @@ Main tables used:
 - Calculated YoY growth %
 
 ### 2️⃣ 4-Year CAGR
-CAGR Formula:
+CAGR Formula: CAGR = (Ending Value / Beginning Value) ^ (1 / Number of Years) - 1
 Applied to:
 - Overall company revenue
 - Revenue by Territory
@@ -67,36 +87,40 @@ Applied to:
 ---
 
 ## 📊 Dashboard Highlights (Power BI)
-- KPI Cards (Total Revenue, YoY %, CAGR)
-- Revenue Trend Line
-- Revenue by Territory (Bar Chart)
-- Growth % by Territory
-- Interactive Filters (Year, Territory)
+- Executive KPI Cards (Revenue, Profit, Margin %, YoY %, CAGR)
+- Revenue vs Profit Trend Analysis
+- Territory Contribution & Growth Comparison
+- Profitability by Product Category
+- Interactive filtering for dynamic financial analysis
 
 ---
 ## 📊 Key Results
 
-- Total Revenue (4 years): $123216786,11
+- Total Revenue (4 years): $123.22M
+- Total Profit (4 years): $9.37M
+- Average Gross Margin: 8.53%
 - 4-Year CAGR: 51.24%
+- Average YoY Growth: 47.30%
 - Highest Revenue Territory: Southwest
 - Fastest Growing Territory (CAGR): France
-- Average YoY Growth: 47,30%
 
 ---
 ## 📈 Key Insights
 - Revenue shows consistent upward growth trend
-- North America contributes the highest revenue share
+- North America region, particularly Southwest territory, dominates revenue contribution
 - Some territories show higher CAGR despite lower total revenue
 - Growth rate analysis helps identify emerging markets
+- Gross margin remains relatively stable at 8.53%, indicating consistent cost structure despite rapid revenue growth
 
 ---
 
 ## 🚀 Business Impact
-This analysis helps management:
-- Monitor revenue growth trends
-- Compare performance across territories
-- Identify high-growth regions
-- Support strategic expansion decisions
+This analysis enables management to:
+- Assess revenue sustainability and growth quality
+- Compare financial performance across territories
+- Identify high-growth and high-margin regions
+- Support data-driven strategic expansion decisions
+- Monitor profitability beyond top-line revenue metric
 
 ---
 
