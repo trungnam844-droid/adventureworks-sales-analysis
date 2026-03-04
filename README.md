@@ -72,17 +72,21 @@ Main tables used:
 - Aggregated revenue by year
 - Used LAG() to calculate previous year revenue
 - Calculated YoY growth %
+- Compared revenue growth with profit growth to assess growth quality
 
 ### 2️⃣ 4-Year CAGR
 CAGR Formula: CAGR = (Ending Value / Beginning Value) ^ (1 / Number of Years) - 1
 Applied to:
 - Overall company revenue
 - Revenue by Territory
+- Measured sustainable long-term growth using CAGR to complement YoY analysis.
 
-### 3️⃣ Territory Performance
+### 3️⃣ Territory Financial Performance
 - Joined SalesOrderHeader with SalesTerritory
-- Calculated revenue contribution %
-- Ranked territories by growth
+- Calculated revenue and profit contribution %
+- Analyzed Gross Margin % by territory
+- Ranked territories by revenue and CAGR
+- Identified high-growth vs high-revenue markets
 
 ---
 
