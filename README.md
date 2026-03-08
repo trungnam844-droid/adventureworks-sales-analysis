@@ -47,7 +47,20 @@ Main tables used:
 - Sales.SalesOrderDetail
 - Production.Product
 - Production.ProductSubcategory
-- Production.ProductCategory  
+- Production.ProductCategory
+
+## 🧩 Data Model
+![Data Model](images/data_model.png)
+
+- The data model follows a snowflake schema structure.
+- The central fact table is **SalesOrderDetail**, which stores transactional sales data including quantity and line totals.
+- Dimension tables provide additional context for analysis:
+  - **Customer** → customer information
+  - **Date** → time-based analysis
+  - **Product** → product information
+  - **ProductSubcategory** → product grouping
+  - **ProductCategory** → high-level product classification
+  - **SalesTerritory** → regional sales analysis
 
 ## 🔎 Key Analysis
 
