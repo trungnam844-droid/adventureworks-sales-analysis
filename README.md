@@ -131,6 +131,9 @@ This enables deeper investigation into product performance.
 - Some territories show higher CAGR despite lower total revenue
 - Growth rate analysis helps identify emerging markets
 - Gross margin remains relatively stable at 8.53%, indicating consistent cost structure despite rapid revenue growth
+- Europe generates the highest revenue.
+- Mountain bikes are the top selling category.
+- Sales show strong seasonality in Q1 and Q4
 
 ## 🚀 Business Impact
 This analysis enables management to:
