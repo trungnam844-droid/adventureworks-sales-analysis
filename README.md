@@ -26,7 +26,6 @@ This project answers those questions using structured SQL analysis and interacti
 - Window Functions (LAG)
 - CTE (Common Table Expressions)
 - Power BI (Data Modeling & Visualization)
-- GitHub (Project Documentation)
 
 ## 🧠 SQL Techniques Demonstrated
 - CTE (Common Table Expressions)
