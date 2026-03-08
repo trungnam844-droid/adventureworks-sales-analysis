@@ -110,11 +110,11 @@ This enables deeper investigation into product performance.
 ## 📷 Dashboard Preview
 
   ### Executive Overview
-  ![Executive Overview](images/executive_overview.png)
+  ![Executive Overview](executive_overview.png)
   ### Product Performance
-  ![Product Performance](images/product_performance.png)
+  ![Product Performance](product_performance.png)
   ### Product Detail
-  ![Product Detail](images/product_detail.png)
+  ![Product Detail](product_detail.png)
 
 ## 📊 Key Results
 - Total Revenue (4 years): $123.22M
