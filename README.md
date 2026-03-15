@@ -129,13 +129,13 @@ This enables deeper investigation into product performance.
   ![Product Detail](images/product_detail.png)
 
 ## 📊 Key Results
-- Total Revenue (4 years): $123.22M
-- Total Profit (4 years): $9.37M
-- Average Gross Margin: 8.53%
-- 4-Year CAGR: 51.24%
-- Average YoY Growth: 47.30%
-- Highest Revenue Territory: Southwest
-- Fastest Growing Territory (CAGR): France
+* Total Revenue (4 Years): $123.22M  
+* Total Profit (4 Years): $9.37M  
+* Average Gross Margin: 8.53%  
+* 4-Year CAGR: 51.24%  
+* Average YoY Growth: 47.30%  
+* Highest Revenue Territory: Southwest  
+* Fastest Growing Territory: France
 
 ## 📈 Key Insights
 - Revenue shows consistent upward growth trend
@@ -157,29 +157,26 @@ This analysis enables management to:
 
 ## 📁 Repository Structure
 ```
-AdventureWorks-Financial-Analysis
+adventureworks-sales-analysis
 │
-├── SQL
-│   └── financial_analysis.sql
+├── sql
+│   └── sales_analysis.sql
 │
-├── PowerBI
+├── dashboard
 │   └── adventureworks_dashboard.pbix
 │
 ├── images
 │   ├── executive_overview.png
 │   ├── product_performance.png
-│   └── product_detail.png
+│   ├── product_detail.png
+│   └── data_model.png
 │
-└── README.md
+└── README.md  
 ```
 
-## ▶️ How to Reproduce the Analysis
-1. Download the AdventureWorks2019 database.
-2. Run the SQL script in the `/SQL` folder to perform financial analysis.
-3. Open the Power BI file in `/PowerBI`.
-4. Explore the dashboard and interact with filters and drill-through features.
-
 ## 👤 Author
-Nam Tran
-Aspiring Financial Data Analyst  
-Focus: SQL • Power BI • Financial Analytics
+Nam Tran  
+Aspiring Data Analyst  
+
+Skills:
+SQL • Python • Power BI • Financial Analytics
