@@ -176,7 +176,7 @@ adventureworks-sales-analysis
 
 ## 👤 Author
 Nam Tran  
-Aspiring Data Analyst  
+Data Analyst  
 
 Skills:
 SQL • Python • Power BI • Financial Analytics
